@@ -144,7 +144,7 @@ player createDiaryRecord["404games",
 	This server has some unique features:<br/><br/>
 	Fixed bases that will stay after restart. 2 main bases and 4 outposts<br/><br/>
 	New skins for all teams <br/><br/>
-	More special stuff will be changed shortly, visit mercykillers.eu to stay up to date! 
+	More special stuff will be added shortly, visit mercykillers.eu to stay up to date! 
 	
 "
 ]
