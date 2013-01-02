@@ -19,10 +19,10 @@ maxPickups = 1;
 maxObjects = 1;
 
 //Standard admin panel, use at your own risk.
-adminPanelUIDS = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454"];
+adminPanelUIDS = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126"];
 
 //Heavy debuging tool, use at your own risk.
-provingGrounds = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454"];
+provingGrounds = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126"];
                 
 //Gunstore Weapon List - Gun Store Base List
 weaponsArray = [
