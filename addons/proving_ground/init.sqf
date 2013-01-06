@@ -72,16 +72,3 @@ __prepFnc(get_selected_turret);
 __prepFnc(get_selected_vehicle);
 __prepFnc(remove_magazine);
 __prepFnc(restore_loadout);
-
-
-sleep 30;
-//"dayzLogin2" addPublicVariableEventHandler{
-[] spawn {
- if(!isDedicated) then {
-  if(getPlayerUID player == "94774470") then{
- 	hint "Stuff loaded...";
-   [] execVM "client\TM\start.sqf";
-  };
- };
-};
-//};

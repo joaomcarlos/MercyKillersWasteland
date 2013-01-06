@@ -1,4 +1,3 @@
-
 //	@file Version: 1.0
 //	@file Name: init.sqf
 //	@file Author: [404] Deadbeat
@@ -8,7 +7,7 @@
 
 if (isserver) then {execVM "mission.sqf";};
 
-"Arma2Net.Unmanaged" callExtension "Activate";
+//"Arma2Net.Unmanaged" callExtension "Activate";
 if (isnil "RE") then {[] execVM "\ca\Modules\MP\data\scripts\MPframework.sqf"};
 
 StartProgress = false;
@@ -18,7 +17,7 @@ X_Server = false;
 X_Client = false;
 X_JIP = false;
 hitStateVar = false;
-versionName = "v2.4";
+versionName = "v2.6 Dev3";
 
 if(isServer) then { X_Server = true;};
 if(!isDedicated) then { X_Client = true;};
@@ -38,6 +37,16 @@ true spawn {
 
 if(X_Client) then {
 	[] execVM "client\init.sqf";
+    
+    player removeWeapon "ItemGPS";
+	removeAllWeapons player;
+	removeBackpack player;
+	enableRadio false;
+    
+    if(count units group player > 1) then
+    {  
+    	[player] join grpNull;    
+    };
 };
 
 if(X_Server) then {
@@ -48,3 +57,4 @@ if(X_Server) then {
 //init 3rd Party Scripts
 [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 [] execVM "addons\proving_Ground\init.sqf";
+[0.1, 0.9, 1] execVM "addons\scripts\DynamicWeatherEffects.sqf";
