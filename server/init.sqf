@@ -15,7 +15,6 @@ serverSpawning = 1;
 [] execVM "server\functions\serverCompile.sqf";
 [] execVM "server\functions\broadcaster.sqf";
 [] execVM "server\functions\relations.sqf";
-[] execVM "server\functions\serverTimeSync.sqf";
 waitUntil{serverCompiledScripts};
 
 diag_log format["WASTELAND SERVER - Server Complie Finished"];
