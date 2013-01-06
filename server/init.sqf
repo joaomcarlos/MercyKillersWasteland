@@ -47,3 +47,8 @@ if (isDedicated) then {
 };
 
 [] execVM "server\functions\daynightcycle.sqf";
+
+[] spawn {
+    sleep 30;
+   //[] execVM "server\anti.sqf"; 
+};
