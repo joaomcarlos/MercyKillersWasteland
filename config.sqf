@@ -19,10 +19,10 @@ donatorsbronze = [""];
 donatorssilver = [""];
 
 //Add silver stealth donator UID here
-donatorssilverstealth = [""];
+donatorssilverstealth = ["89663238"];
 
 //Add gold donator UID here
-donatorsgold = ["64987590", "45332614"];
+donatorsgold = ["64987590", "45332614", "68861254"];
 
 //Add gold stealth donator UID here
 donatorsgoldstealth = [""];
