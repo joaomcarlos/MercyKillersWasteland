@@ -19,11 +19,11 @@ if(isServer) then {
                 
                 setDate _stime;
 		sleep 2;
-                0 setFog _sfog;
+                30 setFog _sfog;
 		sleep 2;
-                0 setOvercast _sover;
+                30 setOvercast _sover;
 		sleep 2;
-                0 setRain _srain;
+                30 setRain _srain;
 		sleep 2;
                 
                 "timeweathersync" addPublicVariableEventHandler {
@@ -35,11 +35,11 @@ if(isServer) then {
                                                 player sideChat "Time and weather syncing...";
                                                 setDate _stime;
 						sleep 2;
-                                                0 setFog _sfog;
+                                                30 setFog _sfog;
 						sleep 2;
-                                                0 setOvercast _sover;
+                                                30 setOvercast _sover;
 						sleep 2;
-                                                0 setRain _srain;
+                                                30 setRain _srain;
 						sleep 2;
                                 };
                 };
