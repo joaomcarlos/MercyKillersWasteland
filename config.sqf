@@ -107,7 +107,7 @@ ammoArray = [
     ["Javelin Ammo","Javelin",150],
     ["20Rnd AA12 Slugs","20Rnd_B_AA12_74Slug",40],
     ["20Rnd AA12 Pellets","20Rnd_B_AA12_Pellets",100],
-    ["20Rnd AA12 HE","20Rnd_B_AA12_HE",300],
+    ["20Rnd AA12 HE","20Rnd_B_AA12_HE",300]
 ];
 
 //Gun Store Equipment List
