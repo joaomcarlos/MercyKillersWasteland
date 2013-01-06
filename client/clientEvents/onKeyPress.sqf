@@ -40,9 +40,10 @@ switch _key do
     //Y key
     case 21:
     {
-        if(((getPlayerUID player) in provingGrounds)) then
+        if(((getPlayerUID player) in serverAdministrators)) then
 		{
-			createDialog "balca_debug_main";
+            closeDialog 0;      
+            createDialog "balca_debug_main";
 		};
     };
 };

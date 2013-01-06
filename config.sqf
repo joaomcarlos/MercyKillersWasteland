@@ -79,7 +79,8 @@ weaponsArray = [
     ["XM8","M8_carbine",500],
     ["G36K","G36K",500],
     ["G36C-SD","G36_C_SD_eotech",600],
-    ["G36","G36a",600]
+    ["G36","G36a",600],
+    ["AA12 PMC","AA12_PMC",1000]
 ];
 
 //Gun Store Ammo List
@@ -103,7 +104,10 @@ ammoArray = [
     ["PG-7V.","PG7V",100],
     ["SMAW-HEAA","SMAW_HEAA",100],
     ["Stinger Ammo","Stinger",150],
-    ["Javelin Ammo","Javelin",150]
+    ["Javelin Ammo","Javelin",150],
+    ["20Rnd AA12 Slugs","20Rnd_B_AA12_74Slug",40],
+    ["20Rnd AA12 Pellets","20Rnd_B_AA12_Pellets",100],
+    ["20Rnd AA12 HE","20Rnd_B_AA12_HE",300],
 ];
 
 //Gun Store Equipment List
