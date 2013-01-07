@@ -18,13 +18,13 @@ if(isServer) then {
                 _srain = timeweathersync select 3;
                 
                 setDate _stime;
-		sleep 2;
-                0 setFog _sfog;
-		sleep 2;
-                0 setOvercast _sover;
-		sleep 2;
-                0 setRain _srain;
-		sleep 2;
+                sleep 2;
+                30 setFog _sfog;
+                sleep 2;
+                30 setOvercast _sover;
+                sleep 2;
+                30 setRain _srain;
+                sleep 2;
                 
                 "timeweathersync" addPublicVariableEventHandler {
                                 _stime = timeweathersync select 0;
@@ -34,13 +34,13 @@ if(isServer) then {
                                 if((((datetonumber date) - (datetonumber _stime)) * 365 * 24 * 60) > 5) then {
                                                 player sideChat "Time and weather syncing...";
                                                 setDate _stime;
-						sleep 2;
-                                                0 setFog _sfog;
-						sleep 2;
-                                                0 setOvercast _sover;
-						sleep 2;
-                                                0 setRain _srain;
-						sleep 2;
+                                                sleep 2;
+                                                30 setFog _sfog;
+                                                sleep 2;
+                                                30 setOvercast _sover;
+                                                sleep 2;
+                                                30 setRain _srain;
+                                                sleep 2;
                                 };
                 };
 };
