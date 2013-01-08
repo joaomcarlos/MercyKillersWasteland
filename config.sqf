@@ -6,14 +6,15 @@
 
 //Admin menu access levels
 moderators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"]; 
-            
+// 87096710= Maestro Roel
 administrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
-
+// 87096710= Maestro Roel
 serverAdministrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
-
+// 87096710= Maestro Roel
 
 //Add bronze donator UID here
-donatorsbronze = [""];
+donatorsbronze = ["1288962"];
+// 1288962= SGSten
 
 //Add silver donator UID here
 donatorssilver = [""];
