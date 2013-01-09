@@ -1,9 +1,4 @@
-activateAddons [
-];
-
-activateAddons [];
-initAmbientLife;
-
+setAccTime 0.0;
 _this = createCenter west;
 _center_0 = _this;
 
@@ -704,5 +699,4 @@ if (true) then
 };
 
 processInitCommands;
-runInitScript;
-finishMissionInit;
+setAccTime 1;
