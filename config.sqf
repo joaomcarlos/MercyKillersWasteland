@@ -85,7 +85,7 @@ weaponsArray = [
     ["G36K","G36K",500],
     ["G36C-SD","G36_C_SD_eotech",600],
     ["G36","G36a",600],
-    ["AA12 PMC","AA12_PMC",2000],
+    ["AA12 PMC","AA12_PMC",2000]
 ];
 
 //Gun Store Ammo List
