@@ -14,9 +14,11 @@ clearWeaponCargoGlobal _crate;
 _crate addWeaponCargoGlobal ["RPG7V",2];
 _crate addWeaponCargoGlobal ["SMAW",2];
 _crate addWeaponCargoGlobal ["M79_EP1",3];
+_crate addWeaponCargoGlobal ["Javelin",1];
 
 _crate addMagazineCargoGlobal ["1Rnd_HE_M203",25];
 _crate addMagazineCargoGlobal ["PG7V",10];
 _crate addMagazineCargoGlobal ["SMAW_HEAA",10];
 _crate addMagazineCargoGlobal ["HandGrenade",10];
 _crate addMagazineCargoGlobal ["Mine",10];
+_crate addMagazineCargoGlobal ["Javelin",1];
