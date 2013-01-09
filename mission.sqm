@@ -17,7 +17,8 @@ class Mission
 		"caair_baf_ch_47f",
 		"CAAir_E_AH6J",
 		"CAWater",
-		"cawater2_fishing_boat"
+		"cawater2_fishing_boat",
+		"caair_e_an2"
 	};
 	addOnsAuto[]=
 	{
@@ -30,6 +31,7 @@ class Mission
 		"cabuildings",
 		"CAWater",
 		"cawater2_fishing_boat",
+		"caair_e_an2",
 		"chernarus"
 	};
 	randomSeed=10079095;
@@ -43,7 +45,7 @@ class Mission
 		year=2020;
 		month=7;
 		day=27;
-		hour=12;
+		hour=15;
 		minute=0;
 	};
 	class Groups
@@ -2580,7 +2582,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=36;
+		items=46;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -2957,6 +2959,102 @@ class Mission
 			id=45;
 			side="EMPTY";
 			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item36
+		{
+			position[]={2911.9851,0.17713715,1933.3658};
+			id=166;
+			side="EMPTY";
+			vehicle="RHIB";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item37
+		{
+			position[]={10929.487,0.14774832,2525.4519};
+			id=167;
+			side="EMPTY";
+			vehicle="RHIB";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item38
+		{
+			position[]={13853.922,0.027784619,13469.836};
+			id=168;
+			side="EMPTY";
+			vehicle="RHIB2Turret";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item39
+		{
+			position[]={14092.475,0.2822879,11367.598};
+			id=169;
+			side="EMPTY";
+			vehicle="RHIB2Turret";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item40
+		{
+			position[]={13365.403,0.037197765,2849.0872};
+			azimut=140;
+			id=170;
+			side="EMPTY";
+			vehicle="Fishing_Boat";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item41
+		{
+			position[]={13415.239,0.3037616,2865.1677};
+			azimut=140;
+			id=171;
+			side="EMPTY";
+			vehicle="RHIB";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item42
+		{
+			position[]={4330.9287,339,10958.44};
+			azimut=255;
+			id=172;
+			side="EMPTY";
+			vehicle="An2_1_TK_CIV_EP1";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item43
+		{
+			position[]={4794.8311,339,10221.619};
+			azimut=210;
+			id=173;
+			side="EMPTY";
+			vehicle="An2_1_TK_CIV_EP1";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item44
+		{
+			position[]={12014.911,158.90245,12682.771};
+			azimut=340;
+			id=174;
+			side="EMPTY";
+			vehicle="An2_1_TK_CIV_EP1";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item45
+		{
+			position[]={4733.2583,9,2548.4038};
+			azimut=200;
+			id=175;
+			side="EMPTY";
+			vehicle="An2_1_TK_CIV_EP1";
 			skill=0.60000002;
 			init="this setVariable[""original"",1,true];";
 		};
