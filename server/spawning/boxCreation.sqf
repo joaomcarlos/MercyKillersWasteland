@@ -163,10 +163,9 @@ switch(_selectedBox) do {
 		clearWeaponCargoGlobal _currBox;
         
         // Add new weapons before ammunition
-        _currBox addWeaponCargoGlobal ["BAF_L85A2_RIS_CWS",2];
-		_currBox addWeaponCargoGlobal ["BAF_L86A2_ACOG",2];
+        _currBox addWeaponCargoGlobal ["BAF_L86A2_ACOG",2];
 		_currBox addWeaponCargoGlobal ["BAF_L85A2_UGL_Holo",2];
-        _currBox addWeaponCargoGlobal ["BAF_LRR_scoped",1];
+        _currBox addWeaponCargoGlobal ["BAF_LRR_scoped",3];
 		_currBox addWeaponCargoGlobal ["M9",4];	
         
         // Add ammunition
