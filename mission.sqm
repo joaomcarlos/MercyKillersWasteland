@@ -37,7 +37,7 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="MercyKillers Edit, Custom Weapons, Custom Skins, Custom Bases, Dynamic Weather";
+		briefingName="MercyKillers Wasteland 2.6Dev3 Edit";
 		briefingDescription="MercyKillers Edit, Custom Weapons, Custom Skins, Custom Bases, Dynamic Weather";
 		resistanceWest=0;
 		startWeather=0;
