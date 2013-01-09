@@ -66,16 +66,16 @@ weaponsArray = [
     ["MG36","MG36",350],
     ["Pecheneg","Pecheneg",250],
     ["Mk_48 Mod","Mk_48",300],
-    ["RPG-7","RPG7V",300],
+    ["RPG-7","RPG7V",200],
     ["SMAW","SMAW",300],
-    ["Stinger","Stinger",1000],
-    ["Javelin","Javelin",1500],
+    ["Stinger","Stinger",700],
+    ["Javelin","Javelin",1300],
     ["Mk12 SPR","M4SPR",200],
-    ["Mk17 Sniper","SCAR_H_LNG_Sniper",500],
-    ["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",750],
+    ["Mk17 Sniper","SCAR_H_LNG_Sniper",700],
+    ["Mk17 Sniper SD","SCAR_H_LNG_Sniper_SD",950],
     ["M40A3","M40A3",800],
-	["DMR","DMR",750],
-	["M110 NV","M110_NVG_EP1",1000],
+	["DMR","DMR",1200],
+	["M110 NV","M110_NVG_EP1",1200],
     ["M107","m107",2000],
     ["Mk17 EGLM RCO","SCAR_H_STD_EGLM_Spect",800],
     ["Mk16 EGLM Holo","SCAR_L_CQC_EGLM_Holo",500],
@@ -85,7 +85,9 @@ weaponsArray = [
     ["G36K","G36K",500],
     ["G36C-SD","G36_C_SD_eotech",600],
     ["G36","G36a",600],
-    ["AA12 PMC","AA12_PMC",1000]
+    ["AA12 PMC","AA12_PMC",2000],
+	["Pipe Bomb","PipeBomb",500],
+	["Frag Grenade","HandGrenade_East",50]
 ];
 
 //Gun Store Ammo List
