@@ -86,8 +86,6 @@ weaponsArray = [
     ["G36C-SD","G36_C_SD_eotech",600],
     ["G36","G36a",600],
     ["AA12 PMC","AA12_PMC",2000],
-	["Pipe Bomb","PipeBomb",500],
-	["Frag Grenade","HandGrenade_East",50]
 ];
 
 //Gun Store Ammo List
@@ -115,6 +113,8 @@ ammoArray = [
     ["20Rnd AA12 Slugs","20Rnd_B_AA12_74Slug",40],
     ["20Rnd AA12 Pellets","20Rnd_B_AA12_Pellets",100],
     ["20Rnd AA12 HE","20Rnd_B_AA12_HE",300]
+	["Pipe Bomb","PipeBomb",500],
+	["Frag Grenade","HandGrenade_East",50]
 ];
 
 //Gun Store Equipment List
