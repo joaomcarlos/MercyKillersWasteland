@@ -12,7 +12,7 @@
 
 if(!isServer) exitwith {};
 diag_log format["WASTELAND SERVER - Mission Started"];
-private ["_unitsAlive","_playerPresent","_missionType","_successTextColour","_mainTextColour","_failTextColour","_subTextColour","_picture","_vehicleName","_rad","_centerPos","_missionTimeOut","_missionDelayTime","_missionTriggerRadius","_missionPlayerRadius","_flatAreas","_randomArea","_hint","_startTime","_currTime","_result","_c130wreck","_box","_box2"];
+private ["_unitsAlive","_playerPresent","_missionType","_successTextColour","_mainTextColour","_failTextColour","_subTextColour","_picture","_vehicleName","_rad","_centerPos","_missionTimeOut","_missionDelayTime","_missionTriggerRadius","_missionPlayerRadius","_flatAreas","_randomArea","_hint","_startTime","_currTime","_result","_c130wreck","_box","_box2","_box3"];
 
 //Mission Initialization.
 _rad=20000;
@@ -66,6 +66,8 @@ _box = createVehicle ["USLaunchersBox",[(_randomPos select 0), (_randomPos selec
 _box2 = createVehicle ["USSpecialWeaponsBox",[(_randomPos select 0), (_randomPos select 1) - 10,0],[], 0, "NONE"];
 [_box2] execVM "server\missions\customWeaponCrates\makeBasicWeapons.sqf";
 
+_box3 = createVehicle ["RUVehicleBox",[(_randomPos select 0), (_randomPos select 1) - 15,0],[], 0, "NONE"];
+
 _picture = getText (configFile >> "cfgVehicles" >> typeOf _c130wreck >> "picture");
 _vehicleName = getText (configFile >> "cfgVehicles" >> typeOf _c130wreck >> "displayName");
 _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>Side Objective</t><br/><t align='center' color='%4'>------------------------------</t><br/><t align='center' color='%5' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'>A<t color='%4'> %3</t>, has come down under enemy fire!</t>", _missionType, _picture, _vehicleName, _mainTextColour, _subTextColour];
@@ -92,6 +94,7 @@ if(_result == 1) then
 	//Mission Failed.
     deleteVehicle _box;
     deleteVehicle _box2;
+	deleteVehicle _box3;
     deleteVehicle _c130wreck;
     {deleteVehicle _x;}forEach units CivGrps;
     deleteGroup CivGrpS;
