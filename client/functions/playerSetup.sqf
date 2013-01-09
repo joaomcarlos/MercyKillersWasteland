@@ -73,6 +73,6 @@ _player setVariable["camonet",0,false];
 
 [] execVM "client\functions\playerActions.sqf";
 [] execVM "client\systems\donators\donatorcheck.sqf";
-[] execVM "client\functions\daynightcycle.sqf";    
+//[] execVM "client\functions\daynightcycle.sqf";    
 
 playerSetupComplete = true;

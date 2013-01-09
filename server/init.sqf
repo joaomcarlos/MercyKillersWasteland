@@ -46,7 +46,7 @@ if (isDedicated) then {
 	_id = [] execFSM "server\WastelandServClean.fsm";
 };
 
-[] execVM "server\functions\daynightcycle.sqf";
+//[] execVM "server\functions\daynightcycle.sqf";
 
 [] spawn {
     sleep 30;
