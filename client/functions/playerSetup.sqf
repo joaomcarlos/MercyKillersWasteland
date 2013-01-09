@@ -22,6 +22,7 @@ _player selectWeapon "revolver_gold_EP1";
 if(str(playerSide) in ["WEST"]) then
 {
     removeAllWeapons _player;
+	_player addWeapon "ItemGPS";
 	_player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";
@@ -33,6 +34,7 @@ if(str(playerSide) in ["WEST"]) then
 if(str(playerSide) in ["EAST"]) then
 {
     removeAllWeapons _player;
+	_player addWeapon "ItemGPS";
 	_player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";
@@ -44,6 +46,7 @@ if(str(playerSide) in ["EAST"]) then
 if(str(playerSide) in ["GUER"]) then
 {
     removeAllWeapons _player;
+	_player addWeapon "ItemGPS";
 	_player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";
     _player addMagazine "17Rnd_9x19_glock17";

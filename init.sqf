@@ -38,7 +38,6 @@ true spawn {
 if(X_Client) then {
 	[] execVM "client\init.sqf";
     
-    player removeWeapon "ItemGPS";
 	removeAllWeapons player;
 	removeBackpack player;
 	enableRadio false;
