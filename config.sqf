@@ -5,16 +5,18 @@
 //	@file Description: Main config.
 
 //Admin menu access levels
-moderators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"]; 
-// 87096710= Maestro Roel
-administrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
-// 87096710= Maestro Roel
+moderators = ["64100486"]; 
+            
+administrators = [""];
+
 serverAdministrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
-// 87096710= Maestro Roel
+
+//Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, IneverEpic=64100486, ??=4348166, ??=94774470
 
 //Add bronze donator UID here
 donatorsbronze = ["1288962"];
-// 1288962= SGSten
+
+//1288962= SGSten,
 
 //Add silver donator UID here
 donatorssilver = [""];
@@ -24,6 +26,8 @@ donatorssilverstealth = ["89663238"];
 
 //Add gold donator UID here
 donatorsgold = ["64987590", "45332614", "68861254", "61743238"];
+
+//45332614=Panda, 61743238=Martyn, 64987590= p0x
 
 //Add gold stealth donator UID here
 donatorsgoldstealth = [""];
