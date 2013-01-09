@@ -58,4 +58,4 @@ if(X_Server) then {
 [] execVM "addons\proving_Ground\init.sqf";
 //[0.1, 0.9, 1] execVM "addons\scripts\DynamicWeatherEffects.sqf";
 
-[] execVM "timesync.sqf";
+//[] execVM "timesync.sqf";
