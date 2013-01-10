@@ -131,7 +131,7 @@ player createDiaryRecord["404games",
 <br/>
 	There is a public Teamspeak 3 server available for players of this server.<br/><br/>
 	Teamspeak IP: mk.ts.verthosting.com:9994<br/><br/>
-	Please join and say hello! 
+	Please join and team up with your team!
 "
 ]
 ];
@@ -142,9 +142,10 @@ player createDiaryRecord["404games",
 "
 <br/>
 	This server has some unique features:<br/><br/>
-	Fixed bases that will stay after restart. 2 main bases and 4 outposts<br/><br/>
-	New skins for all teams <br/><br/>
-	More special stuff will be added shortly, visit mercykillers.eu to stay up to date! 
+	4 fixed small outposts around Staroye, Rashnya, Khlen and  Kazlovka<br/><br/>
+	New skins for all teams and custom missions <br/><br/>
+	No TWS, custom weapons and vehicles, dynamic weather<br/><br/>
+	Visit mercykillers.eu to stay up to date! 
 	
 "
 ]
