@@ -25,7 +25,8 @@ donatorssilver = [""];
 donatorssilverstealth = ["89663238"];
 
 //Add gold donator UID here
-donatorsgold = ["64987590", "45332614", "68861254", "61743238"];
+donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878"];
+// 44495878= GRiMMy
 
 //45332614=Panda, 61743238=Martyn, 64987590= p0x
 
