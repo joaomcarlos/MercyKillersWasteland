@@ -15,8 +15,7 @@ publicvariable "serverAdministrators";
 //Add bronze donator UID here
 donatorsbronze = ["1288962"];
 publicvariable "donatorsbronze";
-
-//1288962= SGSten,
+//1288962=SGSten[2013-Feb-10]
 
 //Add silver donator UID here
 donatorssilver = [""];
@@ -29,8 +28,10 @@ publicvariable "donatorssilverstealth";
 //Add gold donator UID here
 donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878"];
 publicvariable "donatorsgold";
-
-//45332614=Panda, 61743238=Martyn, 64987590= p0x, 44495878= GRiMMy
+//44495878=GRiMMy [2013-Feb-13]
+//45332614=Panda[2013-Feb-4]
+//61743238=Martyn[2013-Feb-4]
+//64987590= p0x[2013-Feb-4]
 
 //Add gold stealth donator UID here
 donatorsgoldstealth = [""];
@@ -39,6 +40,7 @@ publicvariable "donatorsgoldstealth";
 //Add diamond donator UID here
 donatorsdiamond = ["1037378", "6348550", "93675654"];
 publicvariable "donatorsdiamond";
+//93675654=[BAM]Sgt. Raz[2013-Feb-14]
 
 //Add diamond stealth donator UID here
 donatorsdiamondstealth = ["73821126", "94774470"];
