@@ -34,8 +34,9 @@ publicvariable "donatorsgold";
 //64987590= p0x[2013-Feb-4]
 
 //Add gold stealth donator UID here
-donatorsgoldstealth = [""];
+donatorsgoldstealth = ["10853638"];
 publicvariable "donatorsgoldstealth";
+//10853638=PewPewMatt[2013-Feb-16]
 
 //Add diamond donator UID here
 donatorsdiamond = ["1037378", "6348550", "93675654"];
