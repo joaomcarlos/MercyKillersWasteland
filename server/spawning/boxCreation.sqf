@@ -6,6 +6,8 @@
 
 // This file is to address the serious imbalance caused by the default load-out of all weapon crates.
 
+if(!X_Server) exitWith {};
+
 private ["_selectedBox", "_selectedBoxPos", "_finishedBox", "_currBox"];
 
 _selectedBox = _this select 0;
@@ -163,7 +165,7 @@ switch(_selectedBox) do {
 		clearWeaponCargoGlobal _currBox;
         
         // Add new weapons before ammunition
-        _currBox addWeaponCargoGlobal ["BAF_L86A2_ACOG",2];
+		_currBox addWeaponCargoGlobal ["BAF_L86A2_ACOG",2];
 		_currBox addWeaponCargoGlobal ["BAF_L85A2_UGL_Holo",2];
         _currBox addWeaponCargoGlobal ["BAF_LRR_scoped",3];
 		_currBox addWeaponCargoGlobal ["M9",4];	

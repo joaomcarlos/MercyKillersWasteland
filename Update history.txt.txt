@@ -1,1 +1,0 @@
-Enter changes in this file for files that are not part of this repository. I.e: Config folder (scheduler etc.)

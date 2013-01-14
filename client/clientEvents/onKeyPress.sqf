@@ -36,8 +36,8 @@ switch _key do
     {
         [] call loadPlayerMenu;
     };
-    
-    //Y key
+	
+	//Y key
     case 21:
     {
         if(((getPlayerUID player) in serverAdministrators)) then

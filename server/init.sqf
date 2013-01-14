@@ -11,10 +11,12 @@ sideMissions = 1;
 serverSpawning = 1;
 
 //Execute Server Side Scripts.
+[] execVM "server\adminsdonators.sqf";
 [] execVM "server\functions\serverVars.sqf";
 [] execVM "server\functions\serverCompile.sqf";
 [] execVM "server\functions\broadcaster.sqf";
 [] execVM "server\functions\relations.sqf";
+[] execVM "server\functions\serverTimeSync.sqf";
 waitUntil{serverCompiledScripts};
 
 diag_log format["WASTELAND SERVER - Server Complie Finished"];
@@ -44,11 +46,4 @@ if (sideMissions == 1) then {
 
 if (isDedicated) then {
 	_id = [] execFSM "server\WastelandServClean.fsm";
-};
-
-//[] execVM "server\functions\daynightcycle.sqf";
-
-[] spawn {
-    sleep 30;
-   //[] execVM "server\anti.sqf"; 
 };

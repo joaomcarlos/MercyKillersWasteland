@@ -8,10 +8,10 @@
 _player = _this;
 
 //Player initialization
-_player removeWeapon "ItemGPS";
+enableSentences false;
+_player removeWeapon "ItemRadio";
 removeAllWeapons _player;
 removeBackpack _player;
-enableRadio false;
 
 //Default case means something fucked up.
 _player addMagazine "6Rnd_45ACP";
@@ -55,14 +55,13 @@ if(str(playerSide) in ["GUER"]) then
 	_player selectWeapon "glock17_EP1";
 };
 
-
 _player addrating 1000000;
 _player switchMove "amovpknlmstpsraswpstdnon_gear";
 
 thirstLevel = 100;
 hungerLevel = 100;
 
-_player setVariable["cmoney",200,false];
+_player setVariable["cmoney",100,false];
 _player setVariable["canfood",2,false];
 _player setVariable["medkits",0,false];
 _player setVariable["water",2,false];
@@ -76,6 +75,6 @@ _player setVariable["camonet",0,false];
 
 [] execVM "client\functions\playerActions.sqf";
 [] execVM "client\systems\donators\donatorcheck.sqf";
-//[] execVM "client\functions\daynightcycle.sqf";    
 
+_player groupChat format["Player Initialization Complete"];
 playerSetupComplete = true;

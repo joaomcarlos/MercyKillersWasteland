@@ -479,6 +479,8 @@ R3F_LOG_CFG_objets_deplacables = [
 	"Land_stand_small_EP1",
 	"Fort_Barricade",
 	"Land_fort_artillery_nest",
+	"Land_radar_EP1",
+	"Land_vez",
 	"Land_fort_rampart",
 	"Land_RedWhiteBarrier",
 	"Land_ladder_half",

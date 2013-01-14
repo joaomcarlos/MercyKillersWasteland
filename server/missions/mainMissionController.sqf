@@ -4,15 +4,16 @@ if(!isServer) exitWith {};
 
 diag_log format["WASTELAND SERVER - Started Mission State"];
 
-//Main Mission Array
+//Main Mission Array       
 _MMarray = ["mission_MBT",
             "mission_LightTank",
             "mission_LightArmVeh",
             "mission_APC",
             "mission_Heli",
             "mission_Outpost",
-            "mission_RadarTruck"];          
-
+            "mission_RadarTruck",
+			"mission_Plane"];     
+			
 mainMissionRunning = false;
 _startTime = floor(time);
 _result = 0;

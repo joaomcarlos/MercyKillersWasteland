@@ -4,52 +4,12 @@
 //	@file Created: 20/11/2012 05:13
 //	@file Description: Main config.
 
-//Admin menu access levels
-moderators = ["64100486"]; 
-            
-administrators = [""];
-
-serverAdministrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
-
-//Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, IneverEpic=64100486, ??=4348166, ??=94774470
-
-//Add bronze donator UID here
-donatorsbronze = ["1288962"];
-//1288962=SGSten[2013-Feb-10]
-
-//Add silver donator UID here
-donatorssilver = [""];
-
-//Add silver stealth donator UID here
-donatorssilverstealth = ["89663238"];
-
-//Add gold donator UID here
-donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878"];
-//44495878=GRiMMy [2013-Feb-13]
-//45332614=Panda[2013-Feb-4]
-//61743238=Martyn[2013-Feb-4]
-//64987590= p0x[2013-Feb-4]
-
-//Add gold stealth donator UID here
-donatorsgoldstealth = [""];
-
-//Add Platinum donator UID here
-donatorsdiamond = ["1037378", "6348550", "93675654"];
-//93675654=[BAM]Sgt. Raz[2013-Feb-14]
-
-//Add Platinum stealth donator UID here
-donatorsdiamondstealth = ["73821126", "94774470"];
-
-      
 // --------------------------------------------------------------------------------------------------- \\
 // ----------  !DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING!	---------- \\
 // ----------																				---------- \\
 // ----------			404Games are not responsible for anything that may happen 			---------- \\
 // ----------			 as a result of unauthorised modifications to this file.			---------- \\
 // --------------------------------------------------------------------------------------------------- \\
-
-//Client Vars
-playerSetupComplete = false;
                                                                                                 
 //Gunstore Weapon List - Gun Store Base List
 // Text name, classname, buy cost, sell amount
@@ -70,7 +30,7 @@ weaponsArray = [
     ["Mk_48 Mod","Mk_48",300],
     ["RPG-7","RPG7V",200],
     ["SMAW","SMAW",300],
-    ["Stinger","Stinger",700],
+    ["Stinger","Stinger",600],
     ["Javelin","Javelin",1300],
     ["Mk12 SPR","M4SPR",200],
     ["Mk17 Sniper","SCAR_H_LNG_Sniper",700],
@@ -110,7 +70,7 @@ ammoArray = [
         ["DMR Mag.","20Rnd_762x51_DMR",40],
     ["PG-7V.","PG7V",100],
     ["SMAW-HEAA","SMAW_HEAA",100],
-    ["Stinger Ammo","Stinger",150],
+    ["Stinger Ammo","Stinger",100],
     ["Javelin Ammo","Javelin",150],
     ["20Rnd AA12 Slugs","20Rnd_B_AA12_74Slug",40],
     ["20Rnd AA12 Pellets","20Rnd_B_AA12_Pellets",100],
