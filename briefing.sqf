@@ -143,8 +143,9 @@ player createDiaryRecord["404games",
 <br/>
 	This server has some unique features:<br/><br/>
 	4 fixed small outposts around Staroye, Rashnya, Khlen and  Kazlovka<br/><br/>
-	New skins for all teams, custom missions and group system for OPF, BLUF and Indy <br/><br/>
-	No TWS, custom weapons and vehicles, dynamic weather<br/><br/>
+	New skins for all teams, custom missions (including weak jets and extra helis), NO TWS-weapons<br/><br/>
+	Group system for OPF, BLUF and Indy, everyone spawns with GPS<br/><br/>
+	Custom weapons and vehicles, dynamic weather, supports JSRS and BLASTCORE mods<br/><br/>
 	Visit mercykillers.eu to stay up to date! 
 	
 "
