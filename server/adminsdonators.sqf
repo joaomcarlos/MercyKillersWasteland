@@ -26,12 +26,13 @@ donatorssilverstealth = ["89663238"];
 publicvariable "donatorssilverstealth";
 
 //Add gold donator UID here
-donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878"];
+donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878", "91020102"];
 publicvariable "donatorsgold";
 //44495878=GRiMMy [2013-Feb-13]
 //45332614=Panda[2013-Feb-4]
 //61743238=Martyn[2013-Feb-4]
-//64987590= p0x[2013-Feb-4]
+//64987590=p0x[2013-Feb-4]
+//91020102=kekekeke[2013-Feb-8]
 
 
 //Add gold stealth donator UID here
@@ -39,13 +40,13 @@ donatorsgoldstealth = ["10853638"];
 publicvariable "donatorsgoldstealth";
 //10853638=PewPewMatt[2013-Feb-16]
 
-//Add diamond donator UID here
+//Add Platinum Donator UID here
 donatorsdiamond = ["1037378", "6348550", "93675654", "6855044", "6846916"];
 publicvariable "donatorsdiamond";
 //93675654=[BAM]Sgt. Raz[2013-Feb-14]
 //6855044=Dunnachie[2013-Feb-15]
 //6846916=Duncan[2013-Feb-15]
 
-//Add diamond stealth donator UID here
+//Add Platinum stealth donator UID here
 donatorsdiamondstealth = ["73821126", "94774470"];
 publicvariable "donatorsdiamondstealth";
