@@ -2582,7 +2582,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=46;
+		items=48;
 		class Item0
 		{
 			position[]={8343.0654,26.779518,3340.9795};
@@ -2937,7 +2937,7 @@ class Mission
 		};
 		class Item33
 		{
-			position[]={13603,-8.9154272,6258.2656};
+			position[]={13574.21,0.062578201,6305.1382};
 			id=43;
 			side="EMPTY";
 			vehicle="PBX";
@@ -3000,8 +3000,8 @@ class Mission
 		};
 		class Item40
 		{
-			position[]={13365.403,0.037197765,2849.0872};
-			azimut=140;
+			position[]={13464.739,0.13140589,5459.4561};
+			azimut=355;
 			id=170;
 			side="EMPTY";
 			vehicle="Fishing_Boat";
@@ -3010,7 +3010,7 @@ class Mission
 		};
 		class Item41
 		{
-			position[]={13415.239,0.3037616,2865.1677};
+			position[]={13540.158,0.30659038,4258.0396};
 			azimut=140;
 			id=171;
 			side="EMPTY";
@@ -3055,6 +3055,25 @@ class Mission
 			id=175;
 			side="EMPTY";
 			vehicle="An2_1_TK_CIV_EP1";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item46
+		{
+			position[]={13576.743,0.36033598,4838.7402};
+			id=176;
+			side="EMPTY";
+			vehicle="PBX";
+			skill=0.60000002;
+			init="this setVariable[""original"",1,true];";
+		};
+		class Item47
+		{
+			position[]={13101.581,0.37944856,8240.4619};
+			azimut=90;
+			id=177;
+			side="EMPTY";
+			vehicle="RHIB";
 			skill=0.60000002;
 			init="this setVariable[""original"",1,true];";
 		};
