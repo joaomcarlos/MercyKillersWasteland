@@ -94,6 +94,11 @@ switch(_switch) do
             {
             	[] execVM "client\systems\playerMenu\placeSpawnBeacon.sqf";
             };
+			case "bomb": 
+            {
+				hint "The bomb has been placed! You have 30 seconds!";
+            	[] execVM "client\systems\playerMenu\bomb.sqf";
+            };
 		};
 	};
 

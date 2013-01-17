@@ -108,6 +108,9 @@
 		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
 			<English>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</English>
 		</Key>
+		<Key ID="STR_WL_ShopDescriptions_bomb">
+			<English>You get it, you put it, you run like hell! After placing it you have 30 seconds to get far away and watch it go boom. Can also be thrown out of vehicles.</English>
+		</Key>
 	</Package>
 	<Package name="Dialogs">
 		<Key ID="STR_WL_dialog_TeamkillText">

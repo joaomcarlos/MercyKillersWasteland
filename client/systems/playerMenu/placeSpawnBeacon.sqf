@@ -79,15 +79,15 @@ for "_iteration" from 1 to _lockDuration do {
 				            
 		player setVariable["spawnBeacon",0,true];
 				
-		_playerPos = getPosATL player;
-		_placedBeacon = "Satelit" createVehicle (position player); _placedBeacon setPos _playerPos;
+		_playerPos = getPosASL player;
+		_placedBeacon = "Satelit" createVehicle (position player); _placedBeacon setPosASL _playerPos;
 		_placedBeacon addEventHandler["handleDamage", {false}];
 		_placedBeacon setVariable["R3F_LOG_disabled", true];      
 		_placedBeacon setVariable["faction",_playerSide,true];
 	    _placedBeacon setVariable["ownerName",_beaconOwner,true];
 	    _placedBeacon setVariable["ownerUID",_playerUID,true]; 
 		_placedBeacon enableSimulation false;	
-	    _placedBeaconPos = getPos _placedBeacon;
+	    _placedBeaconPos = getPosASL _placedBeacon;
 	   
 	    if(_playerSide == "WEST") then {
 	    	pvar_beaconListBlu set [count pvar_beaconListBlu,[_beaconOwner, _placedBeaconPos, 100, _playerUID]];
