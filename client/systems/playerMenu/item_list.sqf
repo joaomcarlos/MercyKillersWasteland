@@ -65,6 +65,15 @@ if(player getVariable "spawnBeacon" > 0) then {
 };
 
 if(player getVariable "bomb" > 0) then {
-	_itemListIndex = _itemList lbAdd format["%1x - Timebomb", player getVariable "bomb"];
+	_str = "Timebomb";
+    
+	if(player getVariable "bomb" > 1) then 
+    {
+        _str = format ["%1x - Timebomb", player getVariable "bomb"];
+    } else {
+        _str = "Timebomb"
+    };
+	
+	_itemListIndex = _itemList lbAdd _str;
 	_itemList lbSetData [(lbSize _itemList)-1, "bomb"];
 };

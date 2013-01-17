@@ -117,7 +117,7 @@ for [{_x=0},{_x<=_size},{_x=_x+1}] do
             };
         };
 		case "Timebomb": {
-            if(((player getVariable "bomb") + 1 <= 1) AND ((player getVariable "bomb") + 1 <= 1)) then {
+            if(((player getVariable "bomb") + 1 <= 2) AND ((player getVariable "bomb") + 1 <= 2)) then {
                 player setVariable["bomb",(player getVariable "bomb") + 1,true];
             } else {
             	_price = 0;

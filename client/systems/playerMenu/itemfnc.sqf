@@ -96,6 +96,7 @@ switch(_switch) do
             };
 			case "bomb": 
             {
+				player setVariable["bomb",(player getVariable "bomb")-1,true];
 				hint "The bomb has been placed! You have 30 seconds!";
             	[] execVM "client\systems\playerMenu\bomb.sqf";
             };

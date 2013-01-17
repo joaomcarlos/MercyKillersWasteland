@@ -4,4 +4,3 @@ player playmove "AinvPknlMstpSlayWrflDnon";
 
 sleep 30;
 _tmp = "Bo_Mk82" createVehicle _bombpos; _tmp setPosasl _bombpos;
-player setVariable["bomb",(player getVariable "bomb")-1,false];
