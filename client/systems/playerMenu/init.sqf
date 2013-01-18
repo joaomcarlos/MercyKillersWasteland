@@ -41,10 +41,10 @@ if(str(playerSide) == "west" || str(playerSide) == "east") then
 {
 	_groupButton ctrlShow false;    
 };
-*/
+
 
 if(str(playerSide) == "guer") then
 {
 	_groupButton ctrlShow false;    
 };
-
+*/
