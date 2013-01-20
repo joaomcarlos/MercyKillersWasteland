@@ -37,7 +37,7 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="MercyKillers 404 Wasteland 2.7 Edit";
+		briefingName="MercyKillers 404 Wasteland Chernarus 2.7 Edit";
 		briefingDescription="MercyKillers Edit, Custom Weapons, Custom Skins, Custom Bases and Much More";
 		resistanceWest=0;
 		startWeather=0;
