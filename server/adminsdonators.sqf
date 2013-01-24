@@ -20,10 +20,9 @@ publicvariable "serverAdministrators";
 //Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, ??=4348166, ??=94774470
 
 //Add bronze donator UID here
-donatorsbronze = ["1288962", "65910086"];
+donatorsbronze = ["1288962"];
 publicvariable "donatorsbronze";
 //1288962=SGSten[2013-Feb-10]
-//65910086=Lukas D[????]
 
 //Add silver donator UID here
 donatorssilver = [""];
@@ -54,13 +53,14 @@ publicvariable "donatorsgoldstealth";
 //10853638=PewPewMatt[2013-Feb-16]
 
 //Add Platinum Donator UID here
-donatorsdiamond = ["1037378", "6348550", "93675654", "6855044", "6846916", "87422470"];
+donatorsdiamond = ["1037378", "6348550", "93675654", "6855044", "6846916", "87422470", "72365382"];
 publicvariable "donatorsdiamond";
 
 //93675654=[BAM]Sgt. Raz[2013-Feb-14]
 //6855044=Dunnachie[2013-Feb-15]
 //6846916=Duncan[2013-Feb-15]
 //87422470=Hooligan[2013-Feb-19]
+//72365382=saveus626[2013-Feb-24]
 
 //Add Platinum stealth donator UID here
 donatorsdiamondstealth = ["73821126", "94774470"];
