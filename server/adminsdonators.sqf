@@ -30,10 +30,11 @@ donatorssilver = [""];
 publicvariable "donatorssilver";
 
 //Add silver stealth donator UID here
-donatorssilverstealth = ["89663238", "4149510", "102640646"];
+donatorssilverstealth = ["89663238", "4149510", "102640646", "34190598"];
 publicvariable "donatorssilverstealth";
 //4149510=Trago[2013-Feb-17]
 //102640646=ISAF Cri [2013-Feb-22]
+//34190598=Venom [2013-Feb-28]
 
 //Add gold donator UID here
 donatorsgold = ["64987590", "45332614", "68861254", "61743238", "44495878", "91020102", "58989446", "42495110", "103919430", "106436358", "64667270"];
