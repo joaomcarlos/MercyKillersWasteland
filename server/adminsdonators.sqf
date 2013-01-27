@@ -20,7 +20,7 @@ publicvariable "serverAdministrators";
 //Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, ??=4348166, ??=94774470
 
 //Add bronze donator UID here
-donatorsbronze = ["1288962", "82006534"];
+donatorsbronze = ["1288962", "82006534", "37313158"];
 publicvariable "donatorsbronze";
 //1288962=SGSten[2013-Feb-10]
 //82006534=panikl[2013-Feb-10]
