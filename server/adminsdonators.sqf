@@ -24,6 +24,7 @@ donatorsbronze = ["1288962", "82006534"];
 publicvariable "donatorsbronze";
 //1288962=SGSten[2013-Feb-10]
 //82006534=panikl[2013-Feb-10]
+//37313158=Glitch[2013-Feb-27]
 
 //Add silver donator UID here
 donatorssilver = [""];
