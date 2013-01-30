@@ -27,8 +27,9 @@ publicvariable "donatorsbronze";
 //37313158=Glitch[2013-Feb-13]
 
 //Add silver donator UID here
-donatorssilver = [""];
+donatorssilver = ["104736390"];
 publicvariable "donatorssilver";
+//104736390=cmc94[2013-Feb-30]
 
 //Add silver stealth donator UID here
 donatorssilverstealth = ["89663238", "4149510", "102640646", "34190598"];
