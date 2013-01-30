@@ -55,4 +55,5 @@ if(X_Server) then {
 //init 3rd Party Scripts
 [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 [] execVM "addons\proving_Ground\init.sqf";
+[] execVM "BTK\Cargo Drop\Start.sqf";
 [0.1, 0.9, 1] execVM "addons\scripts\DynamicWeatherEffects.sqf";
