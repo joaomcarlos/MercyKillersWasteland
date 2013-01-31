@@ -165,8 +165,11 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 	} else {
 	_Object attachTo [_Transporter,[0,0.5,-1.6]];
 	};
-	
 	_Object enableSimulation false;
+	
+	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
 		
 	//// Disable R3F
 	_Object setVariable ["R3F_LOG_disabled", true];
@@ -225,6 +228,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -277,6 +281,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -373,6 +378,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 	//// Attach object to transporter
 	sleep 3;
 	_Object attachTo [_Transporter,[0,1,-0.3]];
+	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
 		
 	//// Disable R3F
 	_Object setVariable ["R3F_LOG_disabled", true];
@@ -430,6 +438,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -481,6 +490,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -588,6 +598,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 	} else {
 		_Object attachTo [_Transporter,[0,1.4,-0.2]];
 	};
+	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
 		
 	//// Disable R3F
 	_Object setVariable ["R3F_LOG_disabled", true];
@@ -645,6 +658,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -696,6 +710,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -808,6 +823,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 	else {
 		_Object attachTo [_Transporter,[0,1,-2.7]];
 	};
+	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
 		
 	//// Disable R3F
 	_Object setVariable ["R3F_LOG_disabled", true];
@@ -865,6 +883,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
@@ -916,6 +935,7 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object hideobject false;
 		_Object setVehicleInit "this lock false"; processInitCommands;
 		_Object setVehicleLock "UNLOCKED";
 		_Object lock false;
