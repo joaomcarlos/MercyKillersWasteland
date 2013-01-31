@@ -144,6 +144,12 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 
 	//// remove the Action
 	_Transporter removeAction _Action;
+	sleep 1;
+	{_x leavevehicle _Object} forEach crew _Object;
+	{_x action ["getout", _Object]} forEach crew _Object;
+	_Object setVehicleInit "this lock true"; processInitCommands;
+	_Object setVehicleLock "LOCKED";
+	_Object lock true;
 
 	//// Animate ramp
 	sleep 1;
@@ -219,6 +225,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 		
 		//// Enable R3F
 		_Object setVariable ["R3F_LOG_disabled", false];
@@ -268,6 +277,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 
 		//// Create parachute and smoke
 		sleep 2;
@@ -347,6 +359,11 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 
 	//// remove the Action
 	_Transporter removeAction _Action;
+	{_x leavevehicle _Object} forEach crew _Object;
+	{_x action ["getout", _Object]} forEach crew _Object;
+	_Object setVehicleInit "this lock true"; processInitCommands;
+	_Object setVehicleLock "LOCKED";
+	_Object lock true;
 
 	//// Animate ramp
 	sleep 1;
@@ -413,6 +430,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 		
 		//// Enable R3F
 		_Object setVariable ["R3F_LOG_disabled", false];
@@ -461,6 +481,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 
 		//// Create parachute and smoke
 		sleep 2;
@@ -540,6 +563,11 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 
 	//// remove the Action
 	_Transporter removeAction _Action;
+	{_x leavevehicle _Object} forEach crew _Object;
+	{_x action ["getout", _Object]} forEach crew _Object;
+	_Object setVehicleInit "this lock true"; processInitCommands;
+	_Object setVehicleLock "LOCKED";
+	_Object lock true;
 
 	//// Animate ramp
 	sleep 1;
@@ -617,6 +645,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 		
 		//// Enable R3F
 		_Object setVariable ["R3F_LOG_disabled", false];
@@ -665,6 +696,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 
 		//// Create parachute and smoke
 		sleep 2;
@@ -744,6 +778,11 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 
 	//// remove the Action
 	_Transporter removeAction _Action;
+	{_x leavevehicle _Object} forEach crew _Object;
+	{_x action ["getout", _Object]} forEach crew _Object;
+	_Object setVehicleInit "this lock true"; processInitCommands;
+	_Object setVehicleLock "LOCKED";
+	_Object lock true;
 
 	//// Animate ramp
 	sleep 1;
@@ -826,6 +865,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 		deTach _Object;
 		sleep 0.2;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),0];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 		
 		//// Enable R3F
 		_Object setVariable ["R3F_LOG_disabled", false];
@@ -874,6 +916,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 		sleep 0.1;
 		deTach _Object;
 		_Object setPos [(getPos _Object select 0),(getPos _Object select 1),(getPos _Object select 2)-6];
+		_Object setVehicleInit "this lock false"; processInitCommands;
+		_Object setVehicleLock "UNLOCKED";
+		_Object lock false;
 
 		//// Create parachute and smoke
 		sleep 2;
