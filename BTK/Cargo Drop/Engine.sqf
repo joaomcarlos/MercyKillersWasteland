@@ -170,6 +170,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeS)) exitWith {
 	if (_Object isKindOf "Static") then {
 	_Object hideobject true;
 	};
+	if (_Object isKindOf "Land") then {
+	_Object hideobject true;
+	};
 		
 	//// Disable R3F
 	_Object setVariable ["R3F_LOG_disabled", true];
@@ -379,6 +382,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeM)) exitWith {
 	sleep 3;
 	_Object attachTo [_Transporter,[0,1,-0.3]];
 	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
+	if (_Object isKindOf "Land") then {
 	_Object hideobject true;
 	};
 		
@@ -599,6 +605,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeL)) exitWith {
 		_Object attachTo [_Transporter,[0,1.4,-0.2]];
 	};
 	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
+	if (_Object isKindOf "Land") then {
 	_Object hideobject true;
 	};
 		
@@ -824,6 +833,9 @@ if ((_Selected == "LoadCargo") && (_SelectedTransporterTypeXL)) exitWith {
 		_Object attachTo [_Transporter,[0,1,-2.7]];
 	};
 	if (_Object isKindOf "Static") then {
+	_Object hideobject true;
+	};
+	if (_Object isKindOf "Land") then {
 	_Object hideobject true;
 	};
 		
