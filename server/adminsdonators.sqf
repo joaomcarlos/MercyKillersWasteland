@@ -60,7 +60,7 @@ publicvariable "donatorsgoldstealth";
 //15318342=Nero[2013-Feb-29]
 
 //Add Platinum Donator UID here
-donatorsdiamond = ["6348550", "93675654", "6855044", "6846916", "87422470", "72365382", "106436358", "103919430", "64667270"];
+donatorsdiamond = ["6348550", "93675654", "6855044", "6846916", "87422470", "72365382", "106436358", "103919430", "64667270", "25920262"];
 publicvariable "donatorsdiamond";
 //93675654=[BAM]Sgt. Raz[2013-Feb-14]
 //6855044=Dunnachie[2013-Feb-15]
@@ -70,6 +70,7 @@ publicvariable "donatorsdiamond";
 //106436358=Thang[2013-Feb-27]
 //103919430=Ocelot[2013-Feb-23]
 //64667270=MagicRecon[2013-Mar-3]
+//25920262=Benjy[2013-Mar-3]
 
 //Add Platinum stealth donator UID here
 donatorsdiamondstealth = ["73821126", "94774470"];
