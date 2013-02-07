@@ -1,13 +1,12 @@
 if(!X_Server) exitWith {};
 
 //Admin menu access levels
-moderators = ["68861254", "93186886", "45332614", "61778886","61743238", "106436358"]; 
+moderators = ["68861254", "93186886", "45332614", "61743238", "106436358"]; 
 publicvariable "moderators";
 
 //68861254=Dabak
 //93186886=Sean/Zinky
 //45332614=Panda
-//61778886=Nanalew
 //61743238=Martyn
 //106436358=Thang
 
@@ -15,10 +14,10 @@ administrators = ["64100486"];
 publicvariable "administrators";
 //64100486=INeverEpic
 
-serverAdministrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550"];
+serverAdministrators = ["82568454", "4348166", "46360582", "82558598", "1037378", "94774470", "87096710", "14184454", "73821126", "6348550", "61778886"];
 publicvariable "serverAdministrators";
 
-//Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, ??=4348166, ??=94774470
+//Haze=82568454, Silent=82558598, Equiery=46360582, Mathias=14184454, Roel=87096710, Gareth=73821126, Striker=1037378, ??=4348166, ??=94774470, 61778886=Nanalew
 
 //Add bronze donator UID here
 donatorsbronze = ["1288962", "82006534", "37313158"];
