@@ -1,7 +1,7 @@
 if(!X_Server) exitWith {};
 
 //Admin menu access levels
-moderators = ["68861254", "93186886", "45332614", "61743238", "106436358"]; 
+moderators = ["68861254", "93186886", "45332614", "61743238", "106436358", "92009926"]; 
 publicvariable "moderators";
 
 //68861254=Dabak
@@ -9,6 +9,7 @@ publicvariable "moderators";
 //45332614=Panda
 //61743238=Martyn
 //106436358=Thang
+//92009926=dano
 
 administrators = ["64100486"];
 publicvariable "administrators";
